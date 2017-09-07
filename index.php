@@ -1,14 +1,14 @@
 <?php
 
 	$erro = isset($_GET['erro']) ? $_GET['erro'] : 0;
-
+//TESTE
 ?>
 
 
 
-<html lang="pt-br">
+
 	<head>
-		<meta charset="UTF-8">
+		
 
 		<title>Twitter clone</title>
 
