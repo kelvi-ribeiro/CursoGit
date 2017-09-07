@@ -1,10 +1,6 @@
 <?php
 
-	require_once('db.class.php');
-
-	$sql = " SELECT * FROM usuarios where id = 7 ";
-
-	$objDb = new db();
+	
 	$link = $objDb->conecta_mysql();
 
 	$resultado_id = mysqli_query($link, $sql);
